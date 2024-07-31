@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Parking lot
 ---
 <div class="message">
