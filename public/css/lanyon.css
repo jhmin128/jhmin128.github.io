@@ -158,9 +158,18 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
-@media (min-width: 30em) {
+
+@media (max-width: 768px) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    width: 12rem; /* 작은 화면에서는 너비를 12rem으로 */
+    left: -12rem; /* 작은 화면에서도 숨김 상태 유지 */
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 10rem; /* 더 작은 화면에서는 너비를 10rem으로 */
+    left: -10rem; /* 더 작은 화면에서도 숨김 상태 유지 */
   }
 }
 
