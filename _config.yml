@@ -1,7 +1,8 @@
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               민야호
+tagline:             '희희'
+description:         '공사중'
+  # 'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 https://jhmin128.github.io
 baseurl:             ""
 paginate:            5
@@ -9,9 +10,9 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Juhee Min # Mark Otto
+  url:               https://open.kakao.com/o/sF7J9M8e # https://twitter.com/mdo
+  email:             jhmin128@gmail.com # markdotto@gmail.com
 
 # Gems
 plugins:
