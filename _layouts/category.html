@@ -6,9 +6,11 @@ title: "{{ page.title }}"
 <h1>Posts in {{ page.title }}</h1>
 
 <ul>
-  {% for post in site.categories[page.title] %}
+  {% assign category = page.category | default: page.title %}
+  {% for post in categories[category] %}
   <li>
     <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+    <small>{{ post.date | date: "%Y %B %d" }}</small>
   </li>
   {% endfor %}
 </ul>
