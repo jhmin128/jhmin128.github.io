@@ -25,6 +25,7 @@
       {% endif %}
     {% endfor %}
 
+    <!-- Display categories and their posts -->
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
     <h2>{{ category[0] }}</h2> <!-- Category name -->
@@ -38,6 +39,13 @@
     {% else %}
       <p>No categories found</p>
     {% endfor %}
+
+    <p>Debug Info:</p>
+    <ul>
+      {% for category in site.categories %}
+      <li>{{ category[0] }}: {{ category[1].size }} posts</li>
+      {% endfor %}
+    </ul>
 
 
     <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>-->
